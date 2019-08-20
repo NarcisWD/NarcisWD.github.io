@@ -1,0 +1,52 @@
+.body-photo{
+	background-image: url(LandscapePage.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.logo{
+	max-width: 50px;
+	max-height: 50px;
+	background-color: transparent;
+	border: none;
+}
+#LinkColor{
+	color: #0099ff;
+	transition: transform 1s;
+}
+#navbarDropdown{
+	color: #0099ff;
+}
+li:hover{
+	transform: scale(1.1);
+}
+.collapse .navbar-nav .nav-item .not{
+	color: #0099ff;
+}
+
+.main-photo{
+	margin: 2px;
+
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.container-button{
+	padding-top: 450px; 
+	display: flex;
+	justify-content: center;
+}
+.bt{
+	border-radius: 15px 15px;
+	transition: transform 1s; 
+}
+.bt:hover{
+	transform: scale(1.1);
+}
